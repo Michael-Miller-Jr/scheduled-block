@@ -1,0 +1,59 @@
+/* scheduled-block.css */
+.schedule-panel .components-panel__body-title {
+    text-align: center;
+}
+
+.schedule-control {
+    margin-bottom: 16px;
+}
+
+.schedule-control label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.schedule-control .components-datetime__date {
+    padding: 0;
+    margin-left: -5px;
+}
+
+.schedule-control .components-datetime__time {
+    justify-content: flex-start;
+}
+
+.components-datetime__time-legend {
+    position: static !important;
+    clip: auto !important;
+    height: auto !important;
+    width: auto !important;
+    margin: 0 8px 0 0 !important;
+    padding: 0 !important;
+    overflow: visible !important;
+}
+
+.components-datetime__time-field-hours-input,
+.components-datetime__time-field-minutes-input {
+    max-width: 60px;
+}
+
+.components-datetime__time-wrapper {
+    align-items: center;
+    gap: 4px;
+}
+
+.components-toggle-group-control {
+    margin-left: 8px;
+}
+
+.components-toggle-group-control button {
+    min-width: 50px;
+    padding: 4px 8px;
+}
+
+.components-datetime__time-field {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
